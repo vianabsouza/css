@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-areas:
+    "navbar navbar"
+    "main sidebar"
+    "footer footer";
+  height: 100%;
+  margin: 0 auto;
+  overflow: none;
+  width: 100%;
+}
+
+.box {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#firstBox {
+  grid-area: navbar;
+}
+
+#secondtBox {
+  grid-area: main;
+}
+
+#thirdBox {
+  grid-area: sidebar;
+}
+
+#fourthBox {
+  grid-area: footer;
+}
