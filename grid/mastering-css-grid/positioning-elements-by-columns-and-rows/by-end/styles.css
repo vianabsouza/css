@@ -1,12 +1,11 @@
 #container {
-  margin: 0 auto;
-  width: 90%;
-  height: 1000px;
   border: 4px solid black;
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  height: 1000px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .box {
@@ -16,4 +15,4 @@
 #redbox {
   grid-column-start: 3;
   grid-row-start: 2;
-};
+}
