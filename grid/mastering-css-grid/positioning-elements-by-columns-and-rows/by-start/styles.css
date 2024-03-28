@@ -13,13 +13,13 @@
 }
 
 #redbox {
-  /* grid-column-start: 2;
-  grid-column-end: 4; */
+  /* grid-column-end: 4;
+  grid-column-start: 2; */
 
-  grid-row-start: 1;
   grid-row-end: 4;
+  grid-row-start: 1;
 
-  // shorthand
-  // grid-column: 2 / 4;
-  // grid-row: 2 / 4;
+  /* shorthand
+  grid-column: 2 / 4;
+  grid-row: 2 / 4; */
 }
